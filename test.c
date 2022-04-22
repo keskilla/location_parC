@@ -1,3 +1,10 @@
+#ifndef DEF_NOMDUFICHIER // Si la constante n'a pas été définie le fichier n'a jamais été inclus
+#define DEF_NOMDUFICHIER // On définit la constante pour que la prochaine fois le fichier ne soit plus inclus
+/** DEF_NOMDUFICHIER : à remplacer par le nom de votre fichier .h*/
+
+/* Contenu de votre fichier .h (autres include, prototypes, define...) */
+
+#endif
 #include <stdio.h>
 
 // int main(void) {
