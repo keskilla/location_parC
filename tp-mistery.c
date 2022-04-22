@@ -7,6 +7,8 @@ int main ( int argc, char** argv )
     int nombreMystere = 0, nombreEntre = 0;
     const int MAX = 100, MIN = 1;
 
+    printf("L'adresse mémoire de la variable age est : %p", &nombreEntre);
+
     srand(time(NULL));
     nombreMystere = (rand() % (MAX - MIN + 1)) + MIN;
     do
